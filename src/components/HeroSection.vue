@@ -32,7 +32,7 @@ const playerRanks = [
         />
       </div>
       <div
-        class="flex flex-col justify-center items-center md:justify-start md:items-start px-[20px] gap-y-[40px] lg:gap-y-[60px] z-50"
+        class="flex flex-col justify-center items-center md:justify-start md:items-start px-[20px] gap-y-[40px] lg:gap-y-[60px] mt-8 md:mt-0 z-50"
       >
         <img
           src="../assets/hero-text-1.png"
@@ -144,7 +144,7 @@ const playerRanks = [
   <div class="w-full h-full relative">
     <!-- Challenges Header -->
     <div
-      class="flex justify-center items-center w-full h-[100px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat md:pt-[52px] lg:pt-[50px]"
+      class="flex justify-center items-center w-full h-[100px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat"
     >
       <img
         src="../assets/challenges-text-1.png"
@@ -184,13 +184,11 @@ const playerRanks = [
       </div>
 
       <div
-        class="flex justify-center items-center bg-challenge-platform bg-no-repeat bg-cover h-[80px] md:h-[100px] w-full mt-[20px] md:mt-[60px] p-4"
+        class="flex justify-center items-center bg-challenge-platform bg-no-repeat bg-cover h-[140px] md:h-[100px] w-full mt-[20px] md:mt-[60px] mx-[40px]"
       >
-        <img
-          src="../assets/platform-text.png"
-          alt="challenges-text-1"
-          class="w-full md:w-[700px] lg:w-[1000px] object-contain z-50"
-        />
+        <h1 class="uppercase font-saira-stencil-one text-white text-3xl text-center">
+          Let's get you signed up on <span class="text-[#F9EB31]">code ramble!</span>
+        </h1>
       </div>
     </div>
   </div>
@@ -273,5 +271,9 @@ const playerRanks = [
 
 .font-saira-condensed {
   font-family: 'Saira Condensed', sans-serif;
+}
+
+.font-saira-stencil-one {
+  font-family: 'Saira Stencil One', sans-serif;
 }
 </style>
