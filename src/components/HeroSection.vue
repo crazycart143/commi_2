@@ -13,7 +13,6 @@ const playerRanks = [
 </script>
 
 <template>
-  <div class="flex flex-col w-full justify-center items-center"></div>
   <div
     class="absolute inset-0 w-full h-[800px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
   ></div>
@@ -136,6 +135,23 @@ const playerRanks = [
         </table>
       </div>
     </div>
+  </div>
+
+  <!-- Challenges -->
+
+  <div class="w-full h-[1000px] relative">
+    <div
+      class="flex justify-center items-start w-full h-[120px] md:h-[140px] lg:h-[200px] bg-challenge-header bg-no-repeat pt-[46px] md:pt-[52px] lg:pt-[50px]"
+    >
+      <img
+        src="../assets/challenges-text-1.png"
+        alt="challenges-text-1"
+        class="w-[400px] md:w-[700px] lg:w-[900px] object-contain z-50"
+      />
+    </div>
+    <div
+      class="absolute inset-0 w-full h-[120px] md:h-[140px] lg:h-[160px] bg-hero-overlay bg-cover z-40"
+    ></div>
   </div>
 </template>
 
