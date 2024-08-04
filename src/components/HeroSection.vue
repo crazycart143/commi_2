@@ -14,7 +14,7 @@ const playerRanks = [
 
 <template>
   <div
-    class="absolute inset-0 bg-bottom md:bg-top w-full h-[740px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
+    class="absolute left-0 top-0 bg-bottom md:bg-top w-full h-[740px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
   ></div>
   <div
     class="bg-hero-pattern bg-cover bg-no-repeat w-full h-[740px] md:h-[500px] lg:h-[640px] z-10"
