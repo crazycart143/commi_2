@@ -50,7 +50,7 @@ const playerRanks = [
   <!-- Leaderboard -->
 
   <div
-    class="flex justify-center items-start w-full bg-[#1C1B1B] h-full md:h-[1160px] lg:h-[1240px] px-[20px] md:px-[40px] lg:px-[120px] py-[40px]"
+    class="flex justify-center items-start w-full bg-[#1C1B1B] h-full md:h-[1160px] xl:h-[1240px] px-[20px] md:px-[40px] lg:px-[120px] py-[40px]"
   >
     <div
       class="flex flex-col justify-start items-center w-full h-full bg-[#111010] rounded-[40px] py-[40px] drop-shadow-white"
@@ -67,16 +67,16 @@ const playerRanks = [
       <!-- Trophies -->
 
       <div
-        class="hidden md:flex justify-center items-end mt-4 gap-x-[40px] lg:gap-x-[80px] lg:pl-8"
+        class="hidden md:flex justify-center items-end mt-4 gap-x-[40px] lg:gap-x-[80px] xl:pl-8"
       >
         <div class="flex flex-col items-center">
           <img
             src="../assets/bronzeTrophy.png"
             alt="2nd place"
-            class="w-[120px] lg:w-[160px] object-contain"
+            class="w-[120px] xl:w-[160px] object-contain"
           />
           <p
-            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] lg:text-[30px] tracking-widest"
+            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] xl:text-[30px] tracking-widest"
           >
             Jupes
           </p>
@@ -86,10 +86,10 @@ const playerRanks = [
           <img
             src="../assets/goldTrophy.png"
             alt="1st place"
-            class="w-[160px] lg:w-[260px] object-contain relative z-10"
+            class="w-[160px] xl:w-[260px] object-contain relative z-10"
           />
           <p
-            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] lg:text-[30px] tracking-widest"
+            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] xl:text-[30px] tracking-widest"
           >
             350zgambles
           </p>
@@ -99,10 +99,10 @@ const playerRanks = [
           <img
             src="../assets/silverTrophy.png"
             alt="3rd place"
-            class="w-[120px] lg:w-[160px] object-contain"
+            class="w-[120px] xl:w-[160px] object-contain"
           />
           <p
-            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] lg:text-[30px] tracking-widest"
+            class="text-white mt-2 text-center font-titan-one uppercase text-[22px] xl:text-[30px] tracking-widest"
           >
             CoffeeLOL
           </p>
