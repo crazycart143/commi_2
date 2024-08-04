@@ -51,7 +51,7 @@ const playerRanks = [
   <!-- Leaderboard -->
 
   <div
-    class="flex justify-center items-start w-full bg-[#1C1B1B] h-full xl:h-[1240px] px-[20px] md:px-[40px] lg:px-[120px] py-[40px]"
+    class="flex justify-center items-start w-full bg-[#1C1B1B] h-full px-[20px] md:px-[40px] lg:px-[120px] py-[40px]"
   >
     <div
       class="flex flex-col justify-start items-center w-full h-full bg-[#111010] rounded-[40px] py-[40px] drop-shadow-white"
@@ -198,7 +198,7 @@ const playerRanks = [
   <!-- Socials -->
 
   <div
-    class="flex flex-col justify-start items-center w-full h-[700px] md:h-[600px] lg:h-[700px] pt-[100px] md:pt-0 gap-y-[60px] md:gap-y-[60px] lg:gap-y-[80px] bg-[#1C1B1B]"
+    class="flex flex-col justify-start items-center w-full h-[640px] md:h-[680px] lg:h-[700px] pt-[100px] gap-y-[60px] md:gap-y-[60px] lg:gap-y-[80px] bg-[#1C1B1B]"
   >
     <img
       src="../assets/socials-image.png"
