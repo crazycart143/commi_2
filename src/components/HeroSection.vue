@@ -140,8 +140,9 @@ const playerRanks = [
   <!-- Challenges -->
 
   <div class="w-full h-[1000px] relative">
+    <!-- Challenges Header -->
     <div
-      class="flex justify-center items-start w-full h-[120px] md:h-[140px] lg:h-[200px] bg-challenge-header bg-no-repeat pt-[46px] md:pt-[52px] lg:pt-[50px]"
+      class="flex justify-center items-start w-full h-[120px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat pt-[46px] md:pt-[52px] lg:pt-[50px]"
     >
       <img
         src="../assets/challenges-text-1.png"
@@ -152,6 +153,8 @@ const playerRanks = [
     <div
       class="absolute inset-0 w-full h-[120px] md:h-[140px] lg:h-[160px] bg-hero-overlay bg-cover z-40"
     ></div>
+    <!-- Challenges Content -->
+    <div class="bg-hero-pattern bg-cover w-full h-full"></div>
   </div>
 </template>
 
