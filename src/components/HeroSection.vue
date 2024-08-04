@@ -60,7 +60,7 @@ const playerRanks = [
         <img
           src="../assets/leaderboard-header.png"
           alt="leaderboard-text"
-          class="w-[360px] md:w-[600px] object-contain ml-4"
+          class="w-[260px] md:w-[600px] object-contain md:ml-4"
         />
         <Timer />
       </div>
@@ -126,10 +126,10 @@ const playerRanks = [
           <tbody>
             <!-- Data Rows -->
             <tr v-for="rank in playerRanks" :key="rank.rank">
-              <td class="py-2 text-[16px] md:text-[20px] font-bold">{{ rank.rank }}</td>
-              <td class="py-2 text-[16px] md:text-[20px] font-bold">{{ rank.user }}</td>
-              <td class="py-2 text-[16px] md:text-[20px] font-bold">{{ rank.amount }}</td>
-              <td class="py-2 text-[16px] md:text-[20px] font-bold text-green-500">
+              <td class="py-2 text-[12px] md:text-[20px] font-bold">{{ rank.rank }}</td>
+              <td class="py-2 text-[12px] md:text-[20px] font-bold">{{ rank.user }}</td>
+              <td class="py-2 text-[12px] md:text-[20px] font-bold">{{ rank.amount }}</td>
+              <td class="py-2 text-[12px] md:text-[20px] font-bold text-green-500">
                 {{ rank.prize }}
               </td>
             </tr>
@@ -144,12 +144,12 @@ const playerRanks = [
   <div class="w-full h-full relative">
     <!-- Challenges Header -->
     <div
-      class="flex justify-center items-start w-full h-[120px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat pt-[46px] md:pt-[52px] lg:pt-[50px]"
+      class="flex justify-center items-center w-full h-[100px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat md:pt-[52px] lg:pt-[50px]"
     >
       <img
         src="../assets/challenges-text-1.png"
         alt="challenges-text-1"
-        class="w-[400px] md:w-[700px] lg:w-[900px] object-contain z-50"
+        class="w-[320px] md:w-[700px] lg:w-[900px] object-contain z-50"
       />
     </div>
     <div
@@ -178,13 +178,13 @@ const playerRanks = [
           <img
             src="../assets/challenge-3.png"
             alt="challenge-3"
-            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50 mt-4 md:mt-0"
           />
         </a>
       </div>
 
       <div
-        class="flex justify-center items-center bg-challenge-platform bg-no-repeat bg-cover h-[80px] md:h-[100px] w-full mt-[60px] p-4"
+        class="flex justify-center items-center bg-challenge-platform bg-no-repeat bg-cover h-[80px] md:h-[100px] w-full mt-[20px] md:mt-[60px] p-4"
       >
         <img
           src="../assets/platform-text.png"
@@ -198,7 +198,7 @@ const playerRanks = [
   <!-- Socials -->
 
   <div
-    class="flex flex-col justify-center items-center w-full h-[800px] md:h-[600px] lg:h-[700px] pt-[100px] md:pt-0 gap-y-[60px] md:gap-y-[60px] lg:gap-y-[80px] bg-[#1C1B1B]"
+    class="flex flex-col justify-start items-center w-full h-[700px] md:h-[600px] lg:h-[700px] pt-[100px] md:pt-0 gap-y-[60px] md:gap-y-[60px] lg:gap-y-[80px] bg-[#1C1B1B]"
   >
     <img
       src="../assets/socials-image.png"
@@ -208,9 +208,9 @@ const playerRanks = [
     <img
       src="../assets/socials-text-1.png"
       alt="socials-text-1"
-      class="w-[400px] md:w-[400px] lg:w-[400px] object-contain z-50"
+      class="w-[300px] md:w-[400px] lg:w-[400px] object-contain z-50"
     />
-    <div class="flex justify-between items-center w-[400px]">
+    <div class="flex justify-between items-center w-[300px]">
       <a href="#" class="hover:cursor-pointer">
         <img
           src="../assets/footer-icon-1.png"
@@ -273,13 +273,5 @@ const playerRanks = [
 
 .font-saira-condensed {
   font-family: 'Saira Condensed', sans-serif;
-}
-
-table td {
-  padding: 1rem; /* Adds padding to each cell */
-}
-
-table th {
-  padding: 1rem; /* Adds padding to each header cell */
 }
 </style>
