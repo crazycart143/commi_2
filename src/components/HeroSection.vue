@@ -14,7 +14,7 @@ const playerRanks = [
 
 <template>
   <div
-    class="absolute left-0 top-0 bg-bottom md:bg-top w-full h-[740px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
+    class="absolute inset-0 bg-bottom md:bg-top bg-no-repeat w-full h-[740px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
   ></div>
   <div
     class="bg-hero-pattern bg-cover bg-no-repeat w-full h-[740px] md:h-[500px] lg:h-[640px] z-10"
@@ -22,7 +22,7 @@ const playerRanks = [
     <!-- Hero -->
 
     <div
-      class="flex flex-col md:flex-row justify-start items-center h-full pt-[80px] md:pt-[40px] lg:pt-[60px] md:px-10 lg:gap-x-[20px]"
+      class="flex flex-col md:flex-row justify-center items-center h-full pt-[80px] md:pt-[40px] lg:pt-[60px] md:px-10 lg:gap-x-[20px]"
     >
       <div class="z-50">
         <img
