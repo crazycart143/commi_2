@@ -24,13 +24,6 @@ const playerRanks = [
     <div
       class="flex flex-col md:flex-row justify-center items-center h-full pt-[80px] md:pt-[40px] lg:pt-[60px] md:px-10 lg:gap-x-[20px]"
     >
-      <div class="z-50">
-        <img
-          src="../assets/hero-logo.png"
-          alt="Logo"
-          class="w-[460px] sm:w-[500px] md:w-[540px] h-full object-contain"
-        />
-      </div>
       <div
         class="flex flex-col justify-center items-center md:justify-start md:items-start px-[20px] gap-y-[40px] lg:gap-y-[60px] mt-8 md:mt-0 z-50"
       >
