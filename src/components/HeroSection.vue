@@ -14,15 +14,15 @@ const playerRanks = [
 
 <template>
   <div
-    class="absolute inset-0 w-full h-[800px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
+    class="absolute inset-0 bg-bottom md:bg-top w-full h-[740px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
   ></div>
   <div
-    class="bg-hero-pattern bg-cover bg-no-repeat w-full h-[800px] md:h-[500px] lg:h-[640px] z-10"
+    class="bg-hero-pattern bg-cover bg-no-repeat w-full h-[740px] md:h-[500px] lg:h-[640px] z-10"
   >
-    <!-- Hero  -->
+    <!-- Hero -->
 
     <div
-      class="flex flex-col md:flex-row justify-center items-center h-full md:pt-[40px] lg:pt-[60px] md:px-10 lg:gap-x-[20px]"
+      class="flex flex-col md:flex-row justify-start items-center h-full pt-[80px] md:pt-[40px] lg:pt-[60px] md:px-10 lg:gap-x-[20px]"
     >
       <div class="z-50">
         <img
@@ -32,7 +32,7 @@ const playerRanks = [
         />
       </div>
       <div
-        class="flex flex-col justify-center items-center md:justify-start md:items-start gap-y-[40px] lg:gap-y-[60px] z-50"
+        class="flex flex-col justify-center items-center md:justify-start md:items-start px-[20px] gap-y-[40px] lg:gap-y-[60px] z-50"
       >
         <img
           src="../assets/hero-text-1.png"
