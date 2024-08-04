@@ -16,7 +16,9 @@ const playerRanks = [
   <div
     class="absolute inset-0 w-full h-[800px] md:h-[500px] lg:h-[640px] bg-hero-overlay z-40"
   ></div>
-  <div class="bg-hero-pattern bg-contain bg-top w-full h-[800px] md:h-[500px] lg:h-[640px] z-10">
+  <div
+    class="bg-hero-pattern bg-cover bg-no-repeat w-full h-[800px] md:h-[500px] lg:h-[640px] z-10"
+  >
     <!-- Hero  -->
 
     <div
@@ -70,7 +72,7 @@ const playerRanks = [
       >
         <div class="flex flex-col items-center">
           <img
-            src="../assets/bronzeTrophy.png"
+            src="../assets/bronzetrophy.png"
             alt="2nd place"
             class="w-[120px] xl:w-[160px] object-contain"
           />
@@ -83,7 +85,7 @@ const playerRanks = [
         </div>
         <div class="flex flex-col justify-center items-center mb-10 relative">
           <img
-            src="../assets/goldTrophy.png"
+            src="../assets/goldtrophy.png"
             alt="1st place"
             class="w-[160px] xl:w-[260px] object-contain relative z-10"
           />
@@ -96,7 +98,7 @@ const playerRanks = [
         </div>
         <div class="flex flex-col items-center">
           <img
-            src="../assets/silverTrophy.png"
+            src="../assets/silvertrophy.png"
             alt="3rd place"
             class="w-[120px] xl:w-[160px] object-contain"
           />
@@ -139,7 +141,7 @@ const playerRanks = [
 
   <!-- Challenges -->
 
-  <div class="w-full h-[1000px] relative">
+  <div class="w-full h-full relative">
     <!-- Challenges Header -->
     <div
       class="flex justify-center items-start w-full h-[120px] md:h-[140px] lg:h-[156px] bg-challenge-header bg-no-repeat pt-[46px] md:pt-[52px] lg:pt-[50px]"
@@ -154,7 +156,101 @@ const playerRanks = [
       class="absolute inset-0 w-full h-[120px] md:h-[140px] lg:h-[160px] bg-hero-overlay bg-cover z-40"
     ></div>
     <!-- Challenges Content -->
-    <div class="bg-hero-pattern bg-cover w-full h-full"></div>
+    <div
+      class="flex flex-col px-[60px] justify-start items-center py-[40px] bg-hero-pattern bg-cover w-full h-full"
+    >
+      <div class="flex flex-col md:flex-row justify-start items-center pl-4">
+        <a href="#" class="hover:cursor-pointer">
+          <img
+            src="../assets/challenge-1.png"
+            alt="challenge-1"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+          />
+        </a>
+        <a href="#" class="hover:cursor-pointer">
+          <img
+            src="../assets/challenge-2.png"
+            alt="challenge-2"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+          />
+        </a>
+        <a href="#" class="hover:cursor-pointer">
+          <img
+            src="../assets/challenge-3.png"
+            alt="challenge-3"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+          />
+        </a>
+      </div>
+
+      <div
+        class="flex justify-center items-center bg-challenge-platform bg-no-repeat bg-cover h-[80px] md:h-[100px] w-full mt-[60px] p-4"
+      >
+        <img
+          src="../assets/platform-text.png"
+          alt="challenges-text-1"
+          class="w-full md:w-[700px] lg:w-[1000px] object-contain z-50"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Socials -->
+
+  <div
+    class="flex flex-col justify-center items-center w-full h-[800px] md:h-[600px] lg:h-[700px] pt-[100px] md:pt-0 gap-y-[60px] md:gap-y-[60px] lg:gap-y-[80px] bg-[#1C1B1B]"
+  >
+    <img
+      src="../assets/socials-image.png"
+      alt="socials-image"
+      class="w-[300px] md:w-[300px] lg:w-[260px] object-contain z-50"
+    />
+    <img
+      src="../assets/socials-text-1.png"
+      alt="socials-text-1"
+      class="w-[400px] md:w-[400px] lg:w-[400px] object-contain z-50"
+    />
+    <div class="flex justify-between items-center w-[400px]">
+      <a href="#" class="hover:cursor-pointer">
+        <img
+          src="../assets/footer-icon-1.png"
+          alt="socials-text-1"
+          class="w-[40px] lg:w-[40px] object-contain z-50"
+        />
+      </a>
+
+      <a href="#" class="hover:cursor-pointer">
+        <img
+          src="../assets/footer-icon-2.png"
+          alt="socials-text-1"
+          class="w-[40px] lg:w-[40px] object-contain z-50"
+        />
+      </a>
+
+      <a href="#" class="hover:cursor-pointer">
+        <img
+          src="../assets/footer-icon-3.png"
+          alt="socials-text-1"
+          class="w-[40px] lg:w-[40px] z-50"
+        />
+      </a>
+
+      <a href="#" class="hover:cursor-pointer">
+        <img
+          src="../assets/footer-icon-4.png"
+          alt="socials-text-1"
+          class="w-[40px] lg:w-[40px] z-50"
+        />
+      </a>
+
+      <a href="#" class="hover:cursor-pointer">
+        <img
+          src="../assets/footer-icon-5.png"
+          alt="socials-text-1"
+          class="w-[40px] lg:w-[40px] object-contain z-50"
+        />
+      </a>
+    </div>
   </div>
 </template>
 

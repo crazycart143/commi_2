@@ -6,7 +6,8 @@ export default {
       backgroundImage: (theme) => ({
         'hero-pattern': "url('/src/assets/wholewall-bg.png')",
         'hero-overlay': "url('/src/assets/wholewall-bg-overlay.png')",
-        'challenge-header': "url('/src/assets/challenges-bg-header.png')"
+        'challenge-header': "url('/src/assets/challenges-bg-header.png')",
+        'challenge-platform': "url('/src/assets/platform.png')"
       }),
       dropShadow: {
         white: [
