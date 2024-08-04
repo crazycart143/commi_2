@@ -157,28 +157,28 @@ const playerRanks = [
     ></div>
     <!-- Challenges Content -->
     <div
-      class="flex flex-col px-[60px] justify-start items-center py-[40px] bg-hero-pattern bg-cover w-full h-full"
+      class="flex flex-col px-[20px] justify-start items-center py-[40px] bg-hero-pattern bg-cover w-full h-full"
     >
       <div class="flex flex-col md:flex-row justify-start items-center pl-4">
         <a href="#" class="hover:cursor-pointer">
           <img
             src="../assets/challenge-1.png"
             alt="challenge-1"
-            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50 focus:outline-none"
           />
         </a>
         <a href="#" class="hover:cursor-pointer">
           <img
             src="../assets/challenge-2.png"
             alt="challenge-2"
-            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50 focus:outline-none"
           />
         </a>
         <a href="#" class="hover:cursor-pointer">
           <img
             src="../assets/challenge-3.png"
             alt="challenge-3"
-            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50 mt-4 md:mt-0"
+            class="w-[400px] md:w-[800px] lg:w-[400px] object-contain z-50 mt-4 md:mt-0 focus:outline-none"
           />
         </a>
       </div>
